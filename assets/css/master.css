@@ -113,7 +113,7 @@ section#content #home_presentation{
 }
 section#content #home_presentation img{
   float: left;
-	border: 4px solid #000;
+	/*border: 4px solid #000;*/
 	margin: 4%;
 }
 section#content #home_presentation h2{
@@ -177,59 +177,5 @@ section#content article .post h3 a:hover{
 
 /* site footer */
 section footer{
-	float:left;
-	display: block;
-	height:120px;
-	text-align:center;
-}
-section footer p{
-	color: #444444;
-	margin: 3%
 }
 
-/* midias */
-/* for 1024px or less */
-@media screen and (max-width: 1024px) {
-
-}
-
-/* for 480px or less */
-@media screen and (max-width: 480px) {
-	.container {
-		width:92%;
-		padding: 4%;
-	}
-	section header #menu ul li.social{
-		display: none;
-	}
-	section#content #home_presentation h2{
-		width: 100%;
-		font-size: 2.4em;
-	}
-	section#content #home_presentation h2, section#content #home_presentation h3 {
-		width: 100%;
-	}
-  section#content #erro_presentation h2{
-    font-size: 2em;
-  } 
-  section#content #erro_presentation, section#content #erro_presentation h2 section#content #erro_presentation h3{
-    width: 100%;
-  }
-	section#content article small {
-		width: 100%;
-		padding-left: 3%;
-    margin: 0 0 15px;
-    text-align:left;
-	}
-	section#content article .post h3 {
-		font-size: 2em;
-	}
-	section footer p {
-		margin: 8%;
-	}
-}
-
-/* for 320px or less */
-@media screen and (max-width: 320px) {
-
-}
