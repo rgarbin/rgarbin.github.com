@@ -1,0 +1,51 @@
+---
+layout: default
+title: Glue – Bom amigo para ajudar a otimizar seu site!
+description: Hoje existem inúmeras ferramentas para geração de sprites, e uma das que eu mais gosto é o "Glue", pelo simples fato de ser um utilitário
+---
+
+<article>
+  <small>20/07/2012</small>
+  <div class="post">
+    <h3>Glue – Bom amigo para ajudar a otimizar seu site!</h3>
+	
+	<p>Hoje existem inúmeras ferramentas para geração de sprites, e uma das que eu mais gosto é o "Glue", pelo simples fato de ser um utilitário de linha de comando para gerar sprites, de uma forma muito simples e rápida. Sim, eu gosto do meu bom e velho terminal (tela preta).</p>
+
+	<p>Esta ferramenta ajuda o desenvolvedor a agrupar várias imagens do seu site em uma única imagem otimizada (sprite), e depois manipulá-la através do seu CSS. O sprite ajuda a otimizar nossas páginas pois diminui a quantidade de requisições simultâneas ao servidor, muitas vezes tornando o carregamento mais rápido.</p>
+
+	<p>Vamos por a mão na massa, abra o seu terminal e vamos instalar o "Glue".</p>
+	<p>Se você estiver usando o Debian/Ubuntu para instalar é muito simples. Lembrando que para instalar da forma que eu irei exemplificar é necessário que você teja python instalado em seu ambiente.</p>
+
+	<p>Hands On</p>
+
+<pre>$ sudo apt-get install python-pip (gerenciador de pacotes python)
+$ sudo pip install glue</pre>
+	
+	<p>Depois de instalar Glue podemos verificar se tudo ocorreu corretamente chamando o “help”, para obter a lista de todos os argumentos de linha de comando disponíveis:</p>
+
+	<pre>$ glue --help</pre>
+
+	<p>Vamos gerar nossos sprites. Crie uma nova pasta (ícones neste exemplo), e adicionar suas imagens. Depois, você pode simplesmente executar o seguinte comando:</p>
+
+	<pre>$ glue icons sprites</pre>
+
+	<p>Pronto, o Glue irá criar uma nova pasta chamada sprites com a seguinte estrutura:</p>
+
+	<pre>sprites
+  ├ ─ ─ icons.css
+  └ ─ ─ icons.png</pre>
+	
+	<p>A dica deste post não se limita apenas a apresentar um nova ferramenta(Excelente diga-se de passagem) , mas também em mostrar a importância do uso de sprites, que pode ajudar muito nossos sites a serem mais performáticos!</p>
+
+	<p>Referências:</p>
+
+	<ul>
+		<li><a href="https://github.com/fnando/glue" target="_blanck" alt="">https://github.com/fnando/glue</a></li>
+		<li><a href="http://glue.readthedocs.org/en/latest/index.html" target="_blanck" alt="">http://glue.readthedocs.org/en/latest/index.html</a></li>
+		<li><a href="http://glue.readthedocs.org/en/latest/quickstart.html" target="_blanck" alt="">http://glue.readthedocs.org/en/latest/quickstart.html</a></li>
+	</ul>	
+	
+  </div>  
+</article>
+
+

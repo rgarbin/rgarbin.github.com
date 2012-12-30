@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- viewport meta to reset iPhone inital scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ site.title }} - {{ page.title }}</title>
+<meta content="{{ site.keywords }}" name="keywords">
+<meta content="{{ site.description }}" name="description">
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
+<link rel="stylesheet" media="screen" href="/assets/css/syntax.css"/>
+
+</head>
+<body>
+<section>
+  <header>
+    <div class="container">
+      <h1><span>andre</span> costa</h1>
+      <nav id="menu">
+        <ul>
+          <li><a href="/" alt="home">home</a></li>
+          <li><a href="/about/" alt="sobre">sobre</a></li>
+          <li><a href="/blog/" alt="blog">blog</a></li>
+          <li><a href="/contact/" alt="contatos">contatos</a></li>
+          <li class="social"><a href="/rss.xml" alt="rss" target="_blanck">rss</a></li>
+        </ul>
+      </nav>
+    </div>  
+  </header>
+</section>
+
+
+<section id="content">
+  <div class="container">
+  
+    {{ content }}
+
+  </div>
+</section>  
+
+
+<section>
+  <footer><p>©2012 – {{ site.author.name }} <br> Responsive site, Create by Jekyll and Served by GitHub.</p></footer>
+</section>
+
+<!-- css3-mediaqueries.js for IE8 or older -->
+<!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+</body>
+</html>

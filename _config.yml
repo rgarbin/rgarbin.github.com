@@ -1,0 +1,18 @@
+
+permalink: /blog/:title
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title : Rafael Garbin
+description: Sou Rafael Garbin, desenvolvedor e um apaixonado por tecnologia(s). Um Unix maníaco assumido, e sempre estou à procura de novos desafios.
+keywords: Analista, Desenvolvedor de Software, Portifolio, Blog Rafael Garbin
+author :
+  name : Rafael Garbin
+  email : rgarbin@gmail.com
+  github : https://github.com/rgarbin
+  twitter: https://twitter.com/rgarbin
+  facebook: http://www.facebook.com/rgarbin
+  linkdin: http://br.linkedin.com/in/rgarbin
+
+production_url : www.andresc.com.br
