@@ -4,10 +4,9 @@ title: Blog
 ---
 {% for post in site.posts %}
   <article>
-    <small>{{ post.date | date_to_string }}</small>
     <div class="post">
-      <h3><a href="{{ post.url }}" alt="">{{ post.title }}</a></h3>
+      <h3><a href="{{ post.url }}" alt="">{{ post.title }} <label style="font-size: 0.5em;">{{ post.date | date_to_string }}</label></a></h3>
       <p>{{post.description}}</p>
-    </div>  
+    </div> 
   </article>
 {% endfor %}

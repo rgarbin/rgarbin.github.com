@@ -153,7 +153,7 @@ section#content article small{
     width: 14%;
 }
 section#content article .post{
-	border-left: 2px solid whitesmoke;
+	/*border-left: 2px solid whitesmoke;*/
     float: left;
     padding-left: 2%;
     width: 82%;
