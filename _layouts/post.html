@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- viewport meta to reset iPhone inital scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ site.title }} - {{ page.title }}</title>
+<meta content="{{ site.keywords }}" name="keywords">
+<meta content="{{ site.description }}" name="description">
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
+<link rel="stylesheet" media="screen" href="/assets/css/syntax.css"/>
+
+</head>
+<body>
+<section>
+  <header>
+    <div class="container">
+      <h1><span>rafael</span> garbin</h1>
+      <nav id="menu">
+        <ul>
+          <li><a href="/" alt="home">home</a></li>
+          <li><a href="/blog/" alt="Artigos">blog</a></li>
+          <li><a href="/references/" alt="Referencias">Recomendações</a></li>
+          <li><a href="/contact/" alt="contatos">contatos</a></li>
+          <li class="social"><a href="/rss.xml" alt="rss" target="_blanck">rss</a></li>
+        </ul>
+      </nav>
+    </div>  
+  </header>
+</section>
+
+
+<section id="content">
+  <div class="container">
+  
+    {{ content }}
+
+  </div>
+</section>  
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'garbin-homepage'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<section>
+  <footer></footer>
+</section>
+
+<!-- css3-mediaqueries.js for IE8 or older -->
+<!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37317088-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script src="/assets/javascript/jquery.js" type="text/javascript"></script>
+<script src="/assets/javascript/konami.js" type="text/javascript"></script>
+
+</body>
+</html>
