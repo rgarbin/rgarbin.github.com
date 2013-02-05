@@ -48,7 +48,8 @@ $(window).konami(function(){
   msg.push('#python: Although never is often better than *right* now.');
   msg.push('#python: If the implementation is hard to explain, it is a bad idea.');
   msg.push('#python: If the implementation is easy to explain, it may be a good idea.');
-
+  msg.push('@fnando: Clean Code is an Asset for your Company!');
+  msg.push('@rafaelp: Nenhum de nós é tão bom quanto todoa nós juntos');
 
   alert(msg[Math.floor(Math.random() * msg.length)]);
 });
