@@ -1,12 +1,11 @@
-
 permalink: /blog/:title
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Rafael Garbin
-description: Sou Rafael Garbin, desenvolvedor e um apaixonado por tecnologia(s). Um Unix maníaco assumido, e sempre estou à procura de novos desafios.
-keywords: Analista, Desenvolvedor de Software, Portifolio, Blog Rafael Garbin
+description: Eu atuo como desenvolvedor de software, ajudando minha equipe a desenvolver produtos incriveis para nossos clientes. Eu sou um entusiasta de tecnlogia em geral que adora ajudar os outros a aprender, inovar e eliminar desperdício. Um Unix maníaco assumido, estou sempre à procura de novos desafios focando em entregas com qualidade que agregem valor para os clientes.
+keywords: Analista, Desenvolvedor, Software, Portifolio, Blog, Garbin
 author :
   name : Rafael Garbin
   email : rgarbin@gmail.com
