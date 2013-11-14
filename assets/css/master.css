@@ -179,3 +179,8 @@ section#content article .post h3 a:hover{
 section footer{
 }
 
+resume {
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.1em;
+	line-height: 1.5em;	
+}
