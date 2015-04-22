@@ -188,3 +188,8 @@ section footer{
 table, th, td {
    border: 1px solid black;
 }
+
+th {
+    background-color: green;
+    color: white;
+}
