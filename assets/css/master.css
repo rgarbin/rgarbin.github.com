@@ -184,3 +184,7 @@ section footer{
 	font-size: 1.1em;
 	line-height: 1.5em;	
 }
+
+table, th, td {
+   border: 1px solid black;
+}
