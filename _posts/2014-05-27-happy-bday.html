@@ -22,7 +22,7 @@ description: Meus 29 anos e 1 ano de Zenvia
 
 <p>É incrivel como essa primeira experiencia do nosso time com docker abriu nossos olhos para vários outros projetos que em breve estaremos tirando do papel, como teste de performance das nossas aplicações e end2end. Atualmente usamos docker para testar nossas aplicações JAVA, mas como testamos?</p>
 
-<p>Para realizarmos testes de integração com Docker usamos o plugin do maven docker-maven-plugin e maven-failsafe-plugin inicialmente que nos permitiu configurar as imagens e rodar testes das nossa aplicações JAVA. Básicamente o plugin maven-failsafe-plugin a cada mvn install começara a rodar todos os testes com final somethingIT.java, e o docker-maven-plugin que é o nosso "docker-compose" para pom.xml, sobe os container descritos para que o teste possa rodar.</p>
+<p>Para realizarmos testes de integração com Docker usamos os plugins do maven sugerido pelo nosso arquiteto Robson <a href="https://github.com/rhuss/docker-maven-plugin">docker-maven-plugin</a> e <a href="https://github.com/apache/maven-surefire">maven-failsafe-plugin</a> inicialmente que nos permitiu configurar as imagens e rodar testes das nossa aplicações JAVA. Básicamente o plugin maven-failsafe-plugin a cada mvn install começara a rodar todos os testes com final something<strong>IT</strong>.java, e o docker-maven-plugin que é o nosso <strong>"docker-compose"</strong> para pom.xml, sobe os container descritos para que o teste possa rodar.</p>
 
 <p>Por fim, também tive a oportunidade de falar um pouco sobre o dockerhub ao qual tem nos ajudado muito nosso pipeline, gerando imagens automaticamente após os push no bitbucket, usando os hooks para deixar as imagens sempre atualizadas.</p>
 
