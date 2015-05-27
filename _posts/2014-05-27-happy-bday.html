@@ -1,0 +1,31 @@
+---
+layout: post
+title:  Um case de uso de docker
+description: Meus 29 anos
+---
+
+<article>
+  <small>27/05/2015</small>
+  <div class="post">
+    <h3>Um case de uso de docker</h3>
+	
+	<img src=/assets/images/happy-bday.png" />
+	
+	<p>Hoje estou complentando 29 anos e em breve 1 ano de Zenvia, acho que nada melhor do que tirar uns minutinhos para escrever um novo post, já que hoje nem precisei ir trabalhar graças ao day-off da firma =)</p>
+
+<p>Ontem tive o prazer de participar do 1º Encontro Docker Porto Alegre junto dos colegas e amigos Tiago Oliveira e Anderson Kozen. O Evento foi muito legal, num formato no qual nunca tinha tido a oportunidade de participar, chamado <a href="http://en.wikipedia.org/wiki/Fishbowl_%28conversation%29">Fishbowl</a>. Resumidamente consiste em 4 cadeiras no centro no qual, 3 foram previamente ocupadas pelos organizadores e uma ficou vaga e sempre que algum dos participantes quisesse contribuir podia ocupar a cadeira vaga no centro e consequentemente um dos 3 participantes tinha que liberar um lugar, criando assim um ambiente inclusivo que fomentou muita as discussões.</p>
+
+<p>Me surpreendi com o nivel do evento, a galera foi desde o básico até avançado com muita propriedade, algo que me deixou muito feliz. Deixou os meus parabéns ao <a href="https://twitter.com/diogoclucas">@diogoclucas</a>, <a href="https://twitter.com/labianchin">@labianchin</a>, <a href="https://twitter.com/bltavares">@bltavares</a>, <a href="https://twitter.com/_oliveira_tiago">@_oliveira_tiago</a> por tornarem esse evento um sucesso. Desculpas aos demais que eu não achei no twitter. Claro que esse formato as vezes foge um pouco do controle e entra no que aprendi com o @diogoclucas em <a href="http://en.wiktionary.org/wiki/bikeshedding">bikeshedding</a>, mas acho que os beneficios foram maiores e recomendo muito esse formato!  =(</p>
+
+
+<p>Claro que fui obrigado a participar, aproveitei para apresentar um case nosso do uso do docker em aplicações legadas junto com o <a href="https://twitter.com/_oliveira_tiago">Tiago Oliveira</a>, onde estamos tendo muito sucesso. Estas aplicações eram dificeis de se testar unitáriamente e tinhamos muito medo sempre que era necessário realizar uma modificação pequena ou grande, junto com a falta de ambientes para testes e homologação. Com a chegada do docker conseguimos facilmente tornar estas aplicações, até então impossiveis de testar, algo extremamente simples! Méritos total do <a href="https://twitter.com/_oliveira_tiago">@_oliveira_tiago</a> que difundiu o docker no nosso time e acabou deploy's sem testes em aplicações legadas, muito comum até o momento, bem como os rollback's.</p>
+
+<p>É incrivel como essa primeira experiencia do nosso time com docker abriu nossos olhos para vários outros projetos que em breve estaremos tirando do papel, como teste de performace das nossas aplicações e end2end. Atualmente usamos docker para testar nossas aplicações JAVA, mas como testamos?</p>
+
+<p>Para realizarmos testes de integração com Docker usamos o plugin do maven docker-maven-plugin e maven-failsafe-plugin inicialmente que nos permitiu configurar as imagens e rodar testes das nossa aplicações JAVA. Básicamente o plugin maven-failsafe-plugin a cada mvn install começara a rodar todos os testes com final somethingIT.java, e o docker-maven-plugin que é o nosso "docker-compose" para pom.xml, sobe os container descritos para que o teste possa rodar.</p>
+
+<p>Por fim, também tive a oportunidade de falar um pouco sobre o dockerhub ao qual tem nos ajudado muito nosso pipeline, gerando imagens automaticamente após os push no bitbucket, usando os hooks para deixar as imagens sempre atualizadas.</p>
+
+<p>Esse post é um agradecimento ao <a href="https://twitter.com/_oliveira_tiago">Tiago Oliveira</a>, um cara que abraçou o Docker na empresa e ajudou nosso time/empresa a evoluir nossas aplicações legadas. Agora não temos mais desculpinhas, o docker nos permite testar o que era intestavel e refactorar o que tinhamos muito medo, melhorando assim a qualidade das nossas entregas.</p>
+
+</article>
