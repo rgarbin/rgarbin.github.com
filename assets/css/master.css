@@ -211,3 +211,8 @@ table th {
     color: white;
     background-color: black;
 }
+
+p {
+  font-size:20px;
+  line-height:30px;
+}
